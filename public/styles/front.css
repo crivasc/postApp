@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(22, 22, 29); /*Gris intrínseco*/
+    overflow: hidden;
+}
+/*ESTILOS ADICIONALES A BOOTSTRAP*/
+.fs-7{
+    font-size:0.8rem !important;
+}
+
+#footer{
+    background: rgba(0, 19, 20, 0.8);
+}
+#main{
+
+    background: url('../img/city.jpg') center center fixed no-repeat;
+    background-size: cover;
+}
+#postList.contenido {
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: dense;
+    grid-auto-rows: 15rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+
+}
+#postList .card{
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(0.4rem);
+    overflow:hidden;
+}
+#postList .card .card-title{
+    color: rgb(2 67 71);
+}
