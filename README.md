@@ -11,5 +11,6 @@ Proyecto básico de admin y posts php
 ### Instalación
 1. Descargue postApp y coloquelo en la ruta de su proyecto (wwww / localhost).
 2. asegurese de que config/index.php tenga los permisos habilitados para lectura y escritura.
-3. Diríjase a la ruta `/install` en el navegador.
-4. Listo para utilizar postApp!.
+3. Cree la base de datos para el proyecto.
+4. Diríjase a la ruta `/install` en el navegador.
+5. Listo para utilizar postApp!.
