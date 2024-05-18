@@ -12,13 +12,13 @@
             <div class="card-body">
                 <form  id="user-form" action="<?= BASE_URL ?>?page=reguser" method="post" class="row g-2 validar"
                     novalidate>
-                    <div class="input-group input-group-sm mb-3">
+                    <div class="input-group input-group-sm row mb-3">
                         <input type="text" class="form-control" name="txtuser" placeholder="Usuario" required>
                     </div>
-                    <div class="input-group input-group-sm mb-3">
+                    <div class="input-group input-group-sm row mb-3">
                         <input type="email" class="form-control" name="txtemail" placeholder="Email" required>
                     </div>
-                    <div class="input-group input-group-sm mb-3">
+                    <div class="input-group input-group-sm row mb-3">
                         <input type="password" class="form-control" name="txtpass" id="txtpass" placeholder="Password" required>
                         <i id="showpass" class="icofont-eye-blocked fs-5 text-secondary"></i>
                     </div>
