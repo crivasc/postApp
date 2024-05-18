@@ -1,3 +1,4 @@
+<?php session_start();  ?>
 <div id="main" class="container-fluid d-flex justify-content-center vh-100 overflow-y-auto">
     <div class="container row">
         <section class="">
@@ -11,7 +12,12 @@
                         
                         <h5 class="card-title"><?=SITE_NAME?></h5>
                         <p class="card-text"></p>
-                        <a href="<?=BASE_URL.'?page=login'?>" target="_blank" class="btn btn-secondary shadow-sm">Login</a>
+                        <?php
+                            if(!isset($_SESSION['admin']))
+                                echo '<a href="'.BASE_URL.'?page=login" target="_blank" class="btn btn-secondary shadow-sm">Login</a>';
+                            else
+                                echo 'Bienvenido! <br/ > <a href="'.BASE_URL.'?page=admin" class="btn btn-secondary shadow-sm">Ir al dashboard</a>';
+                        ?>
                     </div>
                 </div>
                 <?php if(!empty($data)): ?>

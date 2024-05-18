@@ -20,7 +20,11 @@
                     </a>
                 </div>
             <!--  -->
-                <div class="d-flex justify-content-end">
+                <div class="d-flex justify-content-between">
+                     <a role="button" class="badge d-flex justify-content-center align-items-center" href="<?=BASE_URL?>">
+                        <i class="icofont-home fs-5"></i>   
+                        &nbsp;Ir al home
+                    </a>
                     <a role="button" id="sort" class="badge d-flex justify-content-center align-items-center">Ver&nbsp;<span class="ordmsg">asc</span> 
                         <span class="badge text-light fs-6"><i class="icofont-sort"></i></span>
                     </a>
